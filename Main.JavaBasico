@@ -1,0 +1,16 @@
+package TrabajoSesion5;
+
+public class Main {
+    public static void main(String[] args) {
+
+        CocheCRUD a = new CocheCRUD();
+
+        a.save();
+        a.findAll();
+        a.deleted();
+
+
+
+
+  }
+}
