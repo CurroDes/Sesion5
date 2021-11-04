@@ -1,0 +1,29 @@
+package TrabajoSesion5;
+
+public class CocheCRUD implements CocheCRUDImpl{
+
+    public CocheCRUD(){
+
+
+
+    }
+
+
+    public void save() {
+        System.out.println("Guardar piezas del coche");
+
+    }
+
+
+    public void findAll() {
+        System.out.println("Encontar las piezas");
+
+    }
+
+
+    public void deleted() {
+        System.out.println("Elimina toda las piezas");
+
+
+    }
+}
