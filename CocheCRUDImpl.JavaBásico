@@ -1,0 +1,9 @@
+package TrabajoSesion5;
+
+public interface CocheCRUDImpl {
+
+    public void save();
+    public void findAll();
+    public void deleted();
+
+}
